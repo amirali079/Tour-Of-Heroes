@@ -8,9 +8,6 @@ import {Component, Input,Output, EventEmitter} from '@angular/core';
 })
 export class HeroDetailComponent {
   @Input() hero?: Hero;
-  @Output() public test: EventEmitter<string> = new EventEmitter<string>()
 
-  public onClock() {
-    this.test.emit("amirali")
-  }
+
 }
